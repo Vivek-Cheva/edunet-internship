@@ -23,10 +23,20 @@ window.onload = function () {
     document.getElementById("p4desc").innerText = formData.p4desc
     document.getElementById("p4git").setAttribute("href", formData.p4git) 
     document.getElementById("skills1").setAttribute("src", `https://skillicons.dev/icons?i=${formData.skills}` ) 
-    //   console.log(storedData)
-    //   document.getElementById('lastname').textContent = `Lastname: ${formData.lastname}`;
-    //   document.getElementById('about').textContent = `About: ${formData.about}`;  
-      // ... update other elements based on form data properties
+
+    if(formData.p1title==""){
+      document.querySelector(".project1").style.display = "none";
+    }
+    if(formData.p2title==""){
+      document.querySelector(".project2").style.display = "none";
+    }
+    if(formData.p3title==""){
+      document.querySelector(".project3").style.display = "none";
+    }
+    if(formData.p4title==""){
+      document.querySelector(".project4").style.display = "none";
+    }
+    
     }
   };
   

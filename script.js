@@ -17,18 +17,6 @@ const p4title = document.getElementById('p4title').value
 const p4desc = document.getElementById('p4desc').value
 const p4git = document.getElementById('p4git').value
 const skills = document.getElementById('skills').value
-// e.preventDefault();
-
-// const data = new FormData(e);
-
-    // window.location.replace("file:///F:/college%20web/react/KalyanCheva/port-copy/index.html")
-    // // const name_hed = document.querySelector("#name-hed")
-    // // name_hed.setAttribute(src,`"https://readme-typing-svg.herokuapp.com?font=Montserrat&weight=600&size=50&duration=2000&pause=200&color=F7F7F7&vCenter=true&repeat=false&random=false&width=580&lines=I'm+${f_name.value}+${l_name.value}%F0%9F%91%8B"`)
-    // // window.location.replace("http://127.0.0.1:5500/port-copy/index.html")
-    // const hed = document.querySelector("#hello")
-    // hed.innerText = "hello wordld"
-    console.log("heloooooooooo")
-
     const formData = {
         f_name,
         l_name,
